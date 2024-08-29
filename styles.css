@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    header a, header h1 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    header a:last-child {
+        margin-bottom: 0;
+    }
+}
